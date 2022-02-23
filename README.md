@@ -21,14 +21,14 @@ Can be `left` or `right` depending on the action you want to do once the mouse h
 
 **frequency**
 
-This option will determine at which range of frequency the clicker will click in minute (defined by a min frequency and a max frequency)
+This option will determine at which range of frequency the clicker will click in **seconds** (defined by a min frequency and a max frequency)
 
 
 ### Optional fields
 
 **smooth**
 
-Smooth will determine if the cursor will move smoothly or not from point A to point B
+Smooth will tell the cursor to move smoothly from point A to point B
 
 **debug**
 
@@ -50,7 +50,11 @@ Debug will provide additional informations, like writing a log when the mouse cl
         }
     ],
     "clickType": "right",
-    "frequency": 15,
+    "smooth": true,
+    "frequency": {
+        "min": 10,
+        "max": 25
+    },
     "debug": true
 }
 ```

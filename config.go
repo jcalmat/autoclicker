@@ -15,6 +15,7 @@ func (c ClickType) String() string {
 
 type Config struct {
 	Positions []Position `json:"positions"`
+	Smooth    bool       `json:"smooth"`
 	ClickType ClickType  `json:"clickType"`
 	Frequency Frequency  `json:"frequency"`
 	Debug     bool       `json:"debug"`
