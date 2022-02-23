@@ -1,5 +1,5 @@
 PACKAGE     = autoclicker
-VERSION    ?= $(shell git describe --tags --always)
+VERSION    ?= $(shell git describe --tags)
 
 GO          = go
 

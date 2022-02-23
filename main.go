@@ -22,7 +22,7 @@ func main() {
    | |    | | |/ __| |/ / _ \ '__|
    | |____| | | (__|   <  __/ |   
     \_____|_|_|\___|_|\_\___|_|   
-                                  @%s
+                                  %s
 	Ctrl+C or close window to quit
 	`, version)
 
