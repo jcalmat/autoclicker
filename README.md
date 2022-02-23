@@ -35,7 +35,7 @@ Smooth will tell the cursor to move smoothly from point A to point B
 Debug will provide additional informations, like writing a log when the mouse clicks for instance
 
 
-## Exemple
+## Example
 
 ```json
 {
